@@ -1,0 +1,19 @@
+PROJECT 3: MUTEX LOCKS AND CONDITIONAL MUTEX
+
+There are 2 supporting files:
+	queue.c (and queue.h)
+	LinkList.c (and LinkList.h)
+
+The makefile is capable of:
+	compiling the main oscp3 executable from oscp3.c and corresponding extenal files.
+	compiling the main testQueue executable that tests the operations of queue
+	compiling the main testList executable that tests the operations of linked list
+
+Progress:
+	I wrote my own Linklist.c and Queue.c support .c files initially and later rewrote them to comply with the object-oriented design paradigm.
+
+	I wrote 2 test programs testQueue.c and testList.c to test out all the individual functions of List and Queue classes.
+
+	The main oscp3.c was written based on the pseudo-code given by Professor Mike Scherger.
+
+	3 mutexes were used to lock the queue, the list and the condition variables to ensure mutual exclusions.
